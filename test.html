@@ -1,0 +1,13 @@
+<form method="post" action="<?=  ?>">
+    <fieldset><legend>Оставить комментарий:</legend>
+        <input type="hidden" name="name" value="name"><!--Имя написавшего-->
+        <input type="hidden" name="userid" value="name"><!--ID написавшего-->
+        <input type="hidden" name="id" value="name"><!--В какую таблицу написал-->
+        <input type="hidden" name="iv" value="name"><!--Под каким постом-->
+        <p><?=  ?></p>
+        <textarea name="text" class="postform-textarea"></textarea>
+        <button type="submit">Добавить</button>
+    </fieldset>
+</form>
+
+<a href="delNewsDB.php?id=<?= $id ?>">Удалить</a>

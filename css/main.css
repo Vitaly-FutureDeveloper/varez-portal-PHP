@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(whitesmoke, white);
+    color: rgba(15, 14, 14, 0.788);
+    margin: auto;
+    padding: auto;
+    font-size: 16px;
+}
+img{
+    float: left;
+}
+.hide{
+    display: none;
+}
+.open{
+    color: red;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: auto;
+}
+.header{
+    background-image: linear-gradient(rgb(41, 41, 255), rgb(41, 41, 255), rgb(41, 41, 255), rgb(61, 249, 255));
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+.header-pro{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.wellcome{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 12px;
+}
+.wellcome .timer{
+    margin: 12px;
+}
+
+.content {
+    flex: 4;
+}
+.leftmenu {
+    flex: 1;
+    font-size: 25px;
+    text-align: center;
+}
+
+.rightmenu {
+    flex: 1;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu {
+    display: block;
+    list-style: none;
+}
+.menu-horizontal,
+a .menu-horizontal {
+    display: inline-block;
+    flex-direction: row-reverse;
+    justify-content: stretch;
+    word-spacing: 55px;
+    margin: 20px;
+    color: aliceblue;
+}
+.menu-item a{
+    display: inline-block;
+    padding: 8px 10px;
+}
+.menu-item a:focus,
+.menu-item a:hover{
+    outline: 1px solid rgb(221, 221, 221);
+    color: rgb(70, 70, 70);
+    background-image: linear-gradient(whitesmoke, rgba(189, 185, 185, 0.212))
+}
+
+.timer {
+    text-align: right;
+}
+
+.form-varez {
+    display: block;
+}
+.postform-textarea{
+    min-width: 525px;
+    min-height: 120px;
+
+    background-image: linear-gradient(rgb(248, 254, 255), rgb(254, 255, 249));
+}
+
+footer {
+    color: black;
+    background-image: linear-gradient( rgb(17, 0, 255), rgb(101, 35, 255));
+    text-align: center;
+
+    min-height: 120px;
+}
+
+.adminform {
+    outline: 1px solid black;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+a:hover,
+a:active {
+    color: rgba(0, 0, 0, 0.301);
+
+}
+
+.comments {
+    border: 1px solid silver;
+    margin: 12px;
+    padding: 25px;
+}
+.comment {
+    border: 1px solid silver;
+    margin: 25px 12px 25px 0;
+}
+
+.bb_link{
+    display: block;
+    padding: 10px;
+}
+.bb_link:first-of-type{
+    margin-top: 50px;
+}

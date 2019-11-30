@@ -479,7 +479,7 @@ function parse_bb ($str) { //Парсер bb кода
                 '<b>', '</b>',
                 '<a class="bb_link" href="', '">ССЫЛКА</a>',
                 '<u>', '</u>',
-                '<img src="', '"><br>',
+                '<img src="', '" alt="рисунок"><br>',
                 '<blockquote>', '</blockquote>'
     ];
 

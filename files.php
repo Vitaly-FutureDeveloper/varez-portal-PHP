@@ -48,20 +48,23 @@ echo "</pre>";
     <body>
 
         <header div class="header">
-        <h1><?= $titleH1 ?></h1>
-            <h3><?= $wellcome, $wellcomeName ?></h3>
-            
-            <blockquote class="timer"><? echo "Последнее посещение: $lastVisit"; ?>
-            
-            <?
-                if(empty($_SESSION))
-                    drawUsers($users, 'horizontal');
-                else
-                    sessionOK ($_SESSION);
-            ?>
-            </blockquote>
-
-            
+            <h1><?= $titleH1 ?></h1>
+            <section class="header-pro">
+                <blockquote class="wellcome">
+                    <h3><?= "$wellcome $wellcomeName " ?></h3>
+                    <div class="header-info timer">
+                        <? echo "<p>Последнее посещение: $lastVisit</p>"; ?>
+                    </div>
+                </blockquote>
+                <blockquote class="header-info registration">
+                    <?
+                        if(empty($_SESSION['admin']) && empty($_SESSION['superuser']) && empty($_SESSION['user']) && empty($_SESSION['ban']))
+                            drawUsers($users, 'horizontal');
+                        else
+                            sessionOK($_SESSION); //Покажет в какой сессии и кто, выведет кнопку выйти
+                    ?>
+                </blockquote>
+            </section>
         </header>
 
         <main>

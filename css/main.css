@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(whitesmoke, white);
-    color: rgba(15, 14, 14, 0.788);
+    color: rgba(15, 14, 14, 0.555);
     margin: auto;
     padding: auto;
     font-size: 16px;
@@ -80,7 +80,7 @@ a .menu-horizontal {
 .menu-item a:hover{
     outline: 1px solid rgb(221, 221, 221);
     color: rgb(70, 70, 70);
-    background-image: linear-gradient(whitesmoke, rgba(189, 185, 185, 0.212))
+    background-image: linear-gradient(whitesmoke, rgba(189, 180, 185, 0.212))
 }
 
 .timer {

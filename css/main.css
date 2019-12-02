@@ -22,8 +22,8 @@ main {
     padding: auto;
 }
 .header{
-    background-image: linear-gradient(rgb(41, 41, 255), rgb(41, 41, 255), rgb(41, 41, 255), rgb(61, 249, 255));
-    color: rgba(0, 0, 0, 0.795);
+    background-image: linear-gradient(rgb(55, 41, 255), rgb(41, 41, 255), rgb(41, 41, 255), rgb(61, 249, 255));
+    color: rgba(0, 0, 0, 0.888);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
     padding: auto;
@@ -114,6 +114,7 @@ a:visited {
     color: black;
 }
 a:hover,
+a:focus,
 a:active {
     color: rgba(0, 0, 0, 0.301);
 
